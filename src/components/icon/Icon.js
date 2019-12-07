@@ -1,7 +1,7 @@
 import { typeColor, typeIcon } from "./types";
-import { icon } from "./icons";
+import icon from "./icons";
 
-const Icon = {
+export default {
   name: "Icon",
   props: {
     color: {
@@ -21,7 +21,7 @@ const Icon = {
   },
   methods: {
     getIcon() {
-      return icon[this.name] || icon.checkbox;
+      return icon[this.name] || icon.face;
     }
   },
   render(h) {
@@ -42,5 +42,3 @@ const Icon = {
     );
   }
 };
-
-export default Icon;

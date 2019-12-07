@@ -4,7 +4,7 @@ import IconMoreHoriz from "./IconMoreHoriz";
 import IconCheckbox from "./IconCheckbox";
 import IconLock from "./IconLock";
 
-export const icon = {
+export default {
   checkbox: IconCheckbox,
   doneOutline: IconDoneOutline,
   face: IconFace,
