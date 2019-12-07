@@ -2,17 +2,17 @@
   <div class="IconTextField" :style="styles.root">
     <Icon
       :color="attr.icon"
-      name="lock"
       :size="20"
+      name="lock"
       class="IconTextField__icon"
     />
     <input
-      :class="classes.input"
-      type="text"
       :id="`${name}-TextField`"
+      :class="classes.input"
       :name="name"
       :value="value"
       :placeholder="placeholder"
+      type="text"
       @input="onInput"
     />
   </div>
