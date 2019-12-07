@@ -1,0 +1,28 @@
+.c-icon
+  display: inline-flex
+  align-items: center
+  justify-content: center
+
+.c-iconTextField
+  position: relative
+  display: inline-flex
+  align-items: center
+  &__input
+    padding: 14px 12px 10px 36px
+    width: 100%
+    border: 1px solid #607D8B
+    border-radius: 6px
+    outline: none
+    color: #333
+    &--error
+      padding: 14px 12px 10px 36px
+      width: 100%
+      border: 1px solid #f44336
+      border-radius: 6px
+      outline: none
+      color: #f44336
+      &::placeholder
+        color: #f44336
+  &__icon
+    position: absolute
+    left: 4px

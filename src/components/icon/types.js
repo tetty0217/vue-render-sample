@@ -7,4 +7,4 @@ export const iconColors = {
 
 export const typeColor = ["primary", "secondary", "danger", "warning"];
 
-export const typeIcon = ["face", "checkbox", "doneOutline", "moreHoriz"];
+export const typeIcon = ["face", "checkbox", "doneOutline", "moreHoriz", "lock"];

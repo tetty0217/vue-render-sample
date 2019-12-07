@@ -1,5 +1,5 @@
-import {typeColor, typeIcon} from "../icons/types";
-import { icon } from "../icons";
+import { typeColor, typeIcon } from "./types";
+import { icon } from "./icons";
 
 const Icon = {
   name: "Icon",

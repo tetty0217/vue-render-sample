@@ -8,16 +8,16 @@
     <path d="M0 0h24v24H0z" fill="none" />
     <path
       :style="style"
-      d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+      d="M6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm12 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"
     />
   </svg>
 </template>
 
 <script>
-import { iconColors, typeColor } from "./types";
+import { iconColors, typeColor } from "../types";
 
 export default {
-  name: "IconCheckbox",
+  name: "IconMoreHoriz",
   props: {
     size: {
       type: Number,

@@ -5,19 +5,19 @@
     :height="size"
     :viewBox="viewBox"
   >
-    <path fill="none" d="M0 0h24v24H0V0z" />
+    <path d="M0 0h24v24H0z" fill="none" />
     <path
       :style="style"
-      d="M19.77 5.03l1.4 1.4L8.43 19.17l-5.6-5.6 1.4-1.4 4.2 4.2L19.77 5.03m0-2.83L8.43 13.54l-4.2-4.2L0 13.57 8.43 22 24 6.43 19.77 2.2z"
+      d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"
     />
   </svg>
 </template>
 
 <script>
-import { iconColors, typeColor } from "./types";
+import { iconColors, typeColor } from "../types";
 
 export default {
-  name: "IconDoneOutline",
+  name: "IconLock",
   props: {
     size: {
       type: Number,

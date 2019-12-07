@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { iconColors, typeColor } from "./types";
+import { iconColors, typeColor } from "../types";
 
 export default {
   name: "IconFace",
