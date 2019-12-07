@@ -1,10 +1,10 @@
 <template>
-  <div class="c-iconTextField" :style="styles.root">
+  <div class="IconTextField" :style="styles.root">
     <Icon
       :color="attr.icon"
       name="lock"
       :size="20"
-      class="c-iconTextField__icon"
+      class="IconTextField__icon"
     />
     <input
       :class="classes.input"
@@ -63,8 +63,8 @@ export default {
     classes() {
       return {
         input: this.error
-          ? "c-iconTextField__input--error"
-          : "c-iconTextField__input"
+          ? "IconTextField__input--error"
+          : "IconTextField__input"
       };
     },
     attr() {

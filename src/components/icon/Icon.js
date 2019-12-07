@@ -29,7 +29,7 @@ const Icon = {
     return h(
       "i",
       {
-        class: "c-icon"
+        class: "Icon"
       },
       [
         h(IconComponent, {
